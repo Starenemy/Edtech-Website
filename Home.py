@@ -118,7 +118,7 @@ def contact_page():
         st.markdown(
             """
             <div style='background-color: #f2f2f2; padding: 20px; border-radius: 10px;'>
-                <form action="https://formsubmit.co/your-email-here" method="POST">
+                <form action="https://formsubmit.co/mathentics11@gmail.com" method="POST">
                     <input type="hidden" name="_captcha" value="false">
                     <label for="name">Your Name:</label>
                     <input type="text" id="name" name="name" placeholder="Your name" required><br><br>
