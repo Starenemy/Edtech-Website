@@ -99,13 +99,49 @@ def home_page():
 
 def Mock_test():
     st.title("Mock Test")
-    st.write("Learn more by attempting our mock tests.")
+    st.write("Learn amazing concepts in mock test ")
+
+    with st.expander("Limits"):
+        with st.container():
+            st.write("##")
+            video_column, text_column = st.columns(
+                (1, 2)
+            )  # this shows the second column should be twice as big as the image
+        with video_column:
+            st.video("https://youtu.be/yagfIFcHZg4?si=YEOLQID7t2HMaZJf","video/mp4",)
+
+        with text_column:
+            st.subheader("Some of my work is projected here")
+            st.write(
+                """
+                To resolve this issue, you need to ensure that the paths in your code are correctly formatted to avoid Unicode escape errors. Here are a few steps you can take
+                """
+            )
+
+    
+
 
 
 def Topic_wise():
     st.title("Topic Wise")
     st.write("Learn through Questions regarding every topic")
 
+    with st.expander("Limits"):
+        with st.container():
+            st.write("##")
+            video_column, text_column = st.columns(
+                (1, 2)
+            )  # this shows the second column should be twice as big as the image
+        with video_column:
+            st.video("https://youtu.be/yagfIFcHZg4?si=YEOLQID7t2HMaZJf","video/mp4",)
+
+        with text_column:
+            st.subheader("Some of my work is projected here")
+            st.write(
+                """
+                To resolve this issue, you need to ensure that the paths in your code are correctly formatted to avoid Unicode escape errors. Here are a few steps you can take
+                """
+            )
 
 def contact_page():
     # st.title("Contact Page")
