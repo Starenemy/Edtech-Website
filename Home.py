@@ -27,16 +27,16 @@ def home_page():
         with open(file_name) as f:
             st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-            local_css("C:\\Users\\Acer\\OneDrive\\Desktop\\Webpage\\style\\style.css")
+            local_css("style\\style.css")
 
     lottie_coding = load_lottieurl(
         "https://lottie.host/8e891be2-7fff-461f-83e2-5138d8edfbcc/6ZiNes5DlB.json"
     )
     img_lottie_animation = Image.open(
-        "C:\\Users\\Acer\\OneDrive\\Desktop\\Webpage\\images\\file1.png"
+        "images\\file1.png"
     )
     img_contact_form = Image.open(
-        "C:\\Users\\Acer\\OneDrive\\Desktop\\Webpage\\images\\file2.png"
+        "images\\file2.png"
     )
 
     with st.container():
